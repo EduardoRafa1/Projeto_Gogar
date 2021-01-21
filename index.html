@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulário de Inscrição</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="description" content="Formulário Responsivo">
+	<meta name="keywords" content="gogar,formulario,cadastrar,cadastro">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+	<meta name="author" content="Eduardo">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+ <header class="topo">
+ 	
+ </header><!--TOPO-->
+ <section class="conteudo" >
+ 	<div class="center">
+ 		<section class="info">
+ 			<h1>Criar novo cadastro</h1>
+ 			<h3>Dados cadastrais</h3>
+ 			<p>Crie um cadastro fornecendo as informações da sua empresa. Se já tiver um cadastro <a href="">faça login.</a></p>
+
+ 		</section><!--info-->
+
+ 		<section class="cadastro">
+
+ 			<section class="dados-da-empresa">
+ 				<h2>Dados da empresa</h2>
+ 				<div class="container-empresa">
+ 					<div>
+ 						<label>Razão social / Nome</label>
+ 						<input type="text" name="razaoSocial" id="razaoSocial" placeholder="Gogar Investimentos" required="">
+ 					</div>
+ 					<div>
+ 						<label>CNPJ da Empresa</label>
+ 						<input type="text" id="cnpj" name="cnpj" placeholder="00.000.000/000.00" required="">
+ 					</div>
+ 					<div>
+ 						<label>Data de Abertura da Empresa.</label>
+ 						<input type="date" name="aberturadata" id="aberturadata" min="1915-01-01" max="2050-01-01">
+ 					</div>
+ 					<div>
+ 						<label>Categoria do negócio (Ramo de atividade)</label>
+ 						<input type="text" name="category" id="category" placeholder="Empresa de tecnologia." required="">
+ 					</div>
+ 					 <div>
+ 						<label>E-mail</label>
+ 						<input type="text" name="email" id="email" placeholder="support@gogar.com.br" required="">
+ 					</div>
+ 					<div>
+ 						<label>Telefone</label>
+ 						<input type="text"  name="phone" id="phone" placeholder="Ex: (11) 3003-0330" required="">
+ 					</div>
+ 					<div>
+ 						<label>CEP (Endereço comercial)</label>
+ 						<input type="text"  name="phone" id="CEP" placeholder="Ex: 04100-001 " required="">
+ 					</div>
+ 					<div>
+ 						<label>Endereço comercial</label>
+ 						<input type="text" name="address" id="address" placeholder="Av. Paulista, 1234 " required="">
+ 					</div>
+ 					<div>
+ 						<label>Bairro</label>
+ 						<input type="text" name="bairro" id="bairro" placeholder="Centro" required="">
+ 					</div>
+ 					<div>
+ 						<label>Cidade</label>
+ 						<input type="text" name="cidade" id="cidade" placeholder="São Paulo" required="">
+ 					</div>
+ 					<div>
+ 						<label>UF</label>
+ 						<input type="text" name="uf" id="uf" placeholder="SP" required="">
+ 					</div>
+ 					<div>
+ 						<label>Faturamento em cartão de débito (físico)</label>
+ 						<input type="text" name="Faturamento" id="Faturamento" placeholder="R$ 5000,00" required="">
+ 					</div>
+ 					<div>
+ 						<label>Faturamento em cartão de crédito (físico)</label>
+ 						<input type="text" name="Faturamento1" id="Faturamento1" placeholder="R$ 5000,00" required="">
+ 					</div>
+ 					<div>
+ 						<label>Faturamento em cartão de débito (online)</label>
+ 						<input type="text" name="Faturamento0" id="Faturamento0" placeholder="R$ 5000,00" required="">
+ 					</div>	
+ 					<div>
+ 						<label>Faturamento em cartão de crédito (online)</label>
+ 						<input type="text" name="Faturamento2" id="Faturamento2" placeholder="R$ 5000,00" required="">
+ 					</div>
+ 					<div class="check">
+ 						<p>Faz antecipação?</p>
+ 						<div><input type="radio" name="antecipacao" id="sim" value="sim"> <label>Sim</label></div>
+ 						<br>
+ 						<div><input type="radio" name="antecipacao" id="nao" value="nao"><label>Não</label></div>
+ 					</div>
+ 					<div>
+ 						<label>Número de boletos mensal emitidos</label>
+ 						<input type="text" name="code" id="code" placeholder="50" required="">
+ 					</div>
+
+ 				</div>
+ 				<div class="clear"></div>
+ 			</section><!--dados-da-empresa-->
+
+ 			<section class="dados-do-usuario">
+ 				<h2>Dados do Usuário</h2>
+ 				<div class="container-empresa">
+ 				
+	 				<div>
+	 					<label>CPF do proprietário</label>
+	 					<input type="text" name="code" id="code" placeholder="000.000.000-00" required="">
+	 				</div>
+
+	 				<div>
+ 						<label>Data de nascimento</label>
+ 						<input type="date" name="Faturamento0" id="Faturamento0" placeholder="R$ 5000,00" required="">
+ 					</div>	
+
+
+	 				<div>
+	 					<label>Nome completo da mãe</label>
+	 					<input type="text" name="code" id="code" placeholder="Maria Alves da Silva" required="">
+	 				</div>
+	 			
+ 				</div>
+ 			<div class="clear"></div>
+
+ 			</section>
+
+
+	 		<section class="conta-receber">
+	 			<h2>Conta onde quer receber os pagamentos</h2>
+	 			<div class="container-empresa">
+	 				<div>
+		 				<label>Nome do titular da conta</label>
+		 				<input type="text" name="nometitular" id="nometitular" placeholder="Eduardo Rafael" required="">
+		 			</div>
+
+		 			<div>
+		 				<label>Banco</label>
+		 				<input type="text" name="banco" id="banco" placeholder="Gogar Pay" required="">
+		 			</div>
+
+		 			<div>
+		 				<label>Operador</label>
+		 				<input type="text" name="operador" id="operador" placeholder="Operador se houver" required="">
+		 			</div>
+		 			<div>
+		 				<label>Agência</label>
+		 				<input type="text" name="ag" id="ag" placeholder="0001" required="">
+		 			</div>
+
+		 			<div>
+		 				<label>Agência</label>
+		 				<input type="text" name="conta" id="conta" placeholder="2653" required="">
+		 			</div>
+
+	 			</div><!--container-empresa-->
+				
+	 		</section><!--conta-receber-->
+				<div class="clear"></div>
+
+			<section class="documentos-digitalizados">
+				<div class="container-empresa">
+					<h2>Documentos Digitalizados</h2>
+
+					<div class="doc-digitalizados">
+		 				<label>Documento de identificação com foto (RG, CPF ou CNH)</label>
+		 				<input type="file"  placeholder="Faça upload do arquivo aqui" name="foto" id="foto" required="">		 					
+		 			</div>
+
+		 			<div class="doc-digitalizados">
+		 				<label>Foto segurando o documento enviado acima ao lado do rosto. (É necessário que apareça o rosto e a foto do documento. Lembre-se de estar sem boné ou bandana. Seu cabelo deve estar para trás para mostrar o rosto).</label>
+		 				<input type="file"  placeholder="Faça upload do arquivo aqui" name="foto1" id="foto1" required="">		 					
+		 			</div>
+
+		 			<div class="doc-digitalizados">
+		 				<label>Comprovante de atividade. (Alvará, nota fiscal de compras de produtos ou cartão de visitas).</label>
+		 				<input type="file"  placeholder="Faça upload do arquivo aqui" name="foto2" id="foto2" required="">		 					
+		 			</div>
+
+		 			<div class="doc-digitalizados">
+		 				<label>Identificação do CNPJ. (Anexar uma cópia legível da identificação do CNPJ).</label>
+		 				<input type="file"  placeholder="Comprovante de residência. (Conta de luz, telefone ou gás no nome do sócio ou de familiares comprovados em documento de identidade)." name="contratoSocial" id="contratoSocial" required="">		 					
+		 			</div>
+
+		 			<div class="doc-digitalizados">
+		 				<label>Comprovante de residência. (Conta de luz, telefone ou gás no nome do sócio ou de familiares comprovados em documento de identidade).</label>
+		 				<input type="file"  placeholder="Comprovante de residência. (Conta de luz, telefone ou gás no nome do sócio ou de familiares comprovados em documento de identidade)." name="foto3" id="foto3" required="">		 					
+		 			</div>
+
+
+				</div><!--container-empresa-->
+
+			</section><!--documentos-digitalizados-->
+			<div class="clear"></div>
+
+			<section class="concluir">
+				
+					<a href="">
+						<button>Cancelar</button>
+					</a>
+					<input type="submit" name="Enviar" value="Enviar">
+			
+			</section><!--concluir-->
+			
+ 		</section><!--cadastro-->
+ 		
+ 	
+ 		
+
+ 		
+ 	</div><!--center-->
+ 	<div class="clear"></div>
+ </section><!--conteudo-->
+
+
+ <footer>
+ 	<h1>Footer</h1>
+ </footer>
+
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/functions.js"></script>
+</body>
+</html>
