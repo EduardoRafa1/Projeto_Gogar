@@ -9,14 +9,95 @@ html,body{
 	height: 100%;
 
 }
+
+/*-----------Todos---------*/
 .clear{
 	clear: both;
 }
+
+section h2{
+	position: relative;
+	width: 210px;
+	text-align: center;
+	background-color: white;
+	top: -17px;
+	left: 10px;
+	font-weight: normal;
+	font-size: 23px;
+}
+label{
+	width: 100%;
+	float: left;
+	margin-bottom: 5px;
+}
+
+input[type=text],input[type=date]{
+	width: 360px;
+	
+	height: 40px;
+	padding-left: 5px;
+	float: left;
+	border: 1px solid #ccc;
+}
+
+.container-empresa{
+	width: 100%;
+	height: 100%;
+	
+	padding-left: 18px;
+
+}
+
+/*---------Header---------*/
 header.topo{
 	width: 100%;
-	padding-top: 90px;
-	background-color: #CCC;
+	height:  90px;
+	background-image: linear-gradient(rgb(231,230,228),rgba(231,230,228,0.8),rgb(231,230,228));
+
 }
+header.topo .container-topo{
+	width: 80%;
+	margin: 0 auto;
+
+
+}
+header.topo .logo{
+	width: 23%;	
+	float: left;
+	margin-top: 15px;
+	
+}
+
+header.topo .logo img{
+	width: 100px;
+	float: right;
+}
+header.topo .nav{
+	
+	width: 77%;
+}
+header.topo .nav ul{
+	list-style-type: none;
+}
+header.topo .nav li{
+	float: right;
+	margin-top: 40px;
+}
+header.topo .nav a{
+	margin-left:46px;
+	width: 40px;
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	text-align: center;
+	text-transform: uppercase;
+}
+header.topo .nav a:hover{
+	background-color: #ccc;
+}
+
+}
+/*----------Container Dos Conteúdos-------*/
 
 
 section.conteudo{
@@ -33,6 +114,7 @@ section.conteudo .center{
 	/*background-color: red;*/
 	
 }
+
 /*-------------info--------------*/
 
 .center .info{
@@ -59,39 +141,6 @@ section.conteudo .center{
 }
 .center .info a:hover{
 	text-decoration: underline;
-}
-/* ---------------Todos----------*/
-section h2{
-	position: relative;
-	width: 210px;
-	text-align: center;
-	background-color: white;
-	top: -17px;
-	left: 10px;
-	font-weight: normal;
-	font-size: 23px;
-}
-label{
-	width: 100%;
-	float: left;
-	margin-bottom: 5px;
-}
-
-input[type=text],
-input[type=date]{
-	width: 360px;
-	
-	height: 40px;
-	padding-left: 5px;
-	float: left;
-	border: 1px solid #ccc;
-}
-
-.container-empresa{
-	width: 100%;
-	height: 100%;
-	
-	padding-left: 18px;
 }
 /* ----------------Cadastro-------------*/
 
@@ -142,8 +191,14 @@ section.cadastro .check label{
 	float: left;
 }
 
-
-
+/*----Container-----*/
+section.cadastro{
+	width: 100%;
+	height: auto;
+	
+	float: right;
+	
+}
 
 /*------DADOS DO USUARIO-----*/
 section.dados-do-usuario{
@@ -203,39 +258,41 @@ section.documentos-digitalizados h2{
 
 
 /*---------Concluir---------*/
-section.concluir{
-	width: 100%;
-	height: 30px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+
+
+
+.botao{
 	float: left;
-	
-}
-section.concluir button, section.concluir input[type=submit]{
-	width: 110px;
-	margin-right: 30px;
-	padding: 4px 4px;
-	font-size: 20px;
-	border: 0;
+	padding:4px 15px;
+	width: 130px;
 	background-color: #2BA1C0;
+	border:0;
+	float: left;
+	margin-bottom: 50px;
+	margin-top: 20px;
 	color: white;
- 	border-radius: 4px;
-
-}
-section.concluir button:hover, section.concluir input[type=submit]:hover{
-	cursor: pointer;
-	background-color: #268da6;
-}
-
-footer{
-	width: 100%;
-	height: 200px;
-	background-color: rgb(0,0,0,0.9);
-}
-footer h1{
-	color: white;
+	font-size: 20px;
+	margin-right: 30px;
+	text-decoration: none;
 	text-align: center;
-	line-height:180px;
+	
+
+}
+.registre-se {
+	padding:4px 15px;
+	width: 130px;
+	background-color: #2BA1C0;
+	border:0;
+	float: left;
+	margin-bottom: 50px;
+	margin-top: 20px;
+
+}
+.registre-se a{
+	color: white;
+	text-decoration-line: none;
+	font-size: 20px;
+	text-align: center;
 }
 
 /*-------------Medias--Screens-----------*/
@@ -329,8 +386,18 @@ section.concluir{
 	width: 100%;
 	text-align: center;
 }
+.navegacao{
+	width: 100%;
+	
+	position: relative;
+	left: 50%;
+	transform:translateX(-30%);
+	text-align: center;
+
+	
 
 }
+
 
 
 /*-------------*/
